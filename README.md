@@ -11,3 +11,9 @@ This project uses a machine learning model to predict electricity consumption ba
 Install dependencies using:
 pip install -r requirements.txt
 streamlit run app.py
+
+## 📷 Screenshots
+
+### 📊 Prediction Result
+![Prediction Result](./screenshots/prediction_result.png)
+
