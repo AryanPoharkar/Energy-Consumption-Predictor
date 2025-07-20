@@ -6,7 +6,7 @@ import joblib
 
 st.title("⚡ Energy Consumption Predictor & Optimizer")
 
-model = joblib.load(r"C:\Users\aryan\OneDrive\Desktop\Energy\energy_model.pkl")
+model = joblib.load(r"C:\Users\aryan\OneDrive\Desktop\Energy_Consumption_Project\energy_model.pkl")
 
 temp = st.slider("Temperature (°C)", 10, 45, 25)
 humidity = st.slider("Humidity (%)", 10, 100, 50)
